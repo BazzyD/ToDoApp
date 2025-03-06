@@ -33,6 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
         // Handle Registration Logic (Placeholder)
         registerButton.setOnClickListener(v -> {
             // TODO: Add registration logic (e.g., validate inputs, API call)
+            finish();
         });
     }
 }

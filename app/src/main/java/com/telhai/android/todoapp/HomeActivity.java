@@ -44,7 +44,7 @@ public class HomeActivity extends AppCompatActivity {
 
         // Placeholder for Add Task Button
         addButton.setOnClickListener(v -> {
-            // TODO: Navigate to Add Task Activity
+            startActivity(new Intent(HomeActivity.this, AddNewTaskActivity.class));
         });
 
         // Placeholder for Filter Button

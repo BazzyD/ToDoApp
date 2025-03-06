@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".AddNewTaskActivity">
+
+    <!-- Cancel Button (Top Left) -->
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goBack"
+        android:textSize="18sp"
+        android:backgroundTint="#E0E0E0"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Due Date Section -->
+    <TextView
+        android:id="@+id/dueDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Due Date"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/dueDateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/YYYY"
+        android:inputType="date"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Description Section -->
+    <TextView
+        android:id="@+id/descriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/descriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Enter task description"
+        android:inputType="textMultiLine"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Urgency Section -->
+    <TextView
+        android:id="@+id/urgencyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urgency"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/urgencySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Done Button (Centered) -->
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textSize="16sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

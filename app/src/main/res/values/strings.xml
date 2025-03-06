@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">ToDoApp</string>
+    <string name="goBack"><![CDATA[<-]]></string>
 
     <string-array name="sort_options">
         <item>Sort by Date</item>
         <item>Sort by Priority</item>
         <item>Sort by Name</item>
+    </string-array>
+
+    <string-array name="urgency_options">
+        <item>None</item>
+        <item>Normal</item>
+        <item>Urgent</item>
+        <item>Immediate</item>
     </string-array>
 </resources>
