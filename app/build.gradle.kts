@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.telhai.android.todoapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.telhai.android.todoapp"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 

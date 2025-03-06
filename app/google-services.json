@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240487577763",
+    "project_id": "todoapp-3b4d0",
+    "storage_bucket": "todoapp-3b4d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240487577763:android:8ea0f224bed6e7b8eea716",
+        "android_client_info": {
+          "package_name": "com.telhai.android.todoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-BhYCjqcR6-aqkmbDHdINoqV1z8IedLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
