@@ -27,5 +27,11 @@ public class LoginActivity extends AppCompatActivity {
         registerButton.setOnClickListener(v -> {
             startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
         });
+
+        // Navigate to Home After Login
+        loginButton.setOnClickListener(v -> {
+            startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+            finish();
+        });
     }
 }
